@@ -104,19 +104,9 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/achievements"
-                onClick={() => updateExpanded(false)}
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Achievemnts
-              </Nav.Link>
-            </Nav.Item> */}
-
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/biswajit150803"
+                href="https://github.com/biswajit150803/portfolio_v1"
                 target="_blank"
                 className="fork-btn-inner"
               >
