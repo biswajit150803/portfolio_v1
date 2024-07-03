@@ -9,7 +9,7 @@ import terminal from "../../Assets/Projects/terminal.PNG";
 import youtube from "../../Assets/Projects/youtube.png";
 import sastabazar from "../../Assets/Projects/sastabazar.png";
 import golocal from "../../Assets/Projects/golocal.png";
-
+import critiq from "../../Assets/Projects/critiq.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -95,6 +95,16 @@ function Projects() {
               description="Chemcon is an official event of Indian Institute Of Chemical Engineers.Here users needed to sign in with their email and get the digital pass for the event.This project was an official project of my college.."
               ghLink="https://github.com/biswajit150803/chemcon"
               demoLink="https://chemcon.co.in"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={critiq}
+              isBlog={false}
+              title="CritiQ"
+              description="This project is built using MERN stack integrated with blockchain.It is a review based platform where companies ncan get the original reviews from the customers regarding their product and customers get rewarded in cryptocurrency for submitting proper review.The review is original or not is validated using firebase genkit AI using llama3 and gemma 2b"
+              ghLink="https://github.com/biswajit150803/CritiqAll"
+              // demoLink="https://ecommerce-stripe-six.vercel.app/"
             />
           </Col>
         </Row>
