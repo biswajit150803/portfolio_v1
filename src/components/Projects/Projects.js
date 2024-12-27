@@ -72,7 +72,7 @@ function Projects() {
               isBlog={false}
               title="Terminal Portfolio"
               description="A portfolio made using HTML,CSS and Javascript which can be interacted through the terminal by the help of commands listed in the terminal.."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/biswajit150803/terminal_protfolio"
               demoLink="https://terminalbiswajitportfolio.netlify.app"
             />
           </Col>
